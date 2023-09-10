@@ -9,8 +9,16 @@ body, h1, h2, p {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 30px;
+}
+
+h2 {
+  color: #0F2C59;
 }
 
 .about {
@@ -68,7 +76,12 @@ section {
   font-size: 3em !important;
   text-align: center;
   margin-top: 20px;
+  margin-right: 10px;
   padding: 5px;
+}
+
+.icon .i {
+  padding-right: 20px;
 }
 
 .icon-fa {
@@ -84,4 +97,12 @@ section {
 
 .icon-tu {
   color: #BB2525;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #0F2C59;
+  color: #fff;
+  margin-top: 10px;
 }

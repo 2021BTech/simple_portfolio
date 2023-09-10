@@ -10,7 +10,9 @@ const Portfolio = () => {
       {/* project section */}
       <div className="project">
         <img src={AV1} alt="project-1" />
-        <h3> Newsletter project</h3>
+        <a href="/">
+          <h3> Newsletter project</h3>
+        </a>
         <p>
           The "Newsletter" project is a web application designed to simplify and
           streamline the process of sending out newsletters and updates to your
@@ -22,7 +24,9 @@ const Portfolio = () => {
       {/* projection 2 */}
       <div className="project">
         <img src={AV2} alt="project-1" />
-        <h3> Weather App project</h3>
+        <a href="/">
+          <h3> Weather App project</h3>
+        </a>
         <p>
           I developed a dynamic and user-friendly weather application using
           React that provides real-time weather information for any location

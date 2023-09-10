@@ -17,10 +17,10 @@ const Contact = () => {
         connect with me on social media using the links below.
       </p>
       <div className="icon">
-        <FaFacebook className="icon-fa" />
-        <FaTwitter className="icon-x" />
-        <FaInstagramSquare className="icon-in" />
-        <FaYoutube className="icon-tu" />
+        <FaFacebook className="icon-fa i" />
+        <FaTwitter className="icon-x i" />
+        <FaInstagramSquare className="icon-in i" />
+        <FaYoutube className="icon-tu i" />
       </div>
     </section>
   );
