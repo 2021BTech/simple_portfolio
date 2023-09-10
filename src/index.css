@@ -37,3 +37,12 @@ nav a {
   font-weight: bold;
   font-size: 15px;
 }
+
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
