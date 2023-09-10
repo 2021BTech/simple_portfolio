@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="section">
+    <section className="about" id="about">
       <h2> About Me</h2>
       <p>
         Experienced Software Developer, Web Developer with a demonstrated
@@ -12,7 +12,7 @@ const About = () => {
         professional with a Bachelor of Engineering - BE focused on
         metallurgical/material engineering from Nnamdi Azikiwe University.
       </p>
-    </div>
+    </section>
   );
 };
 

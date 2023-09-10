@@ -5,7 +5,7 @@ import AV2 from "../../assets/img/3.png";
 
 const Portfolio = () => {
   return (
-    <div className="section">
+    <section className="portfolio" id="portfolio">
       <h2> Portfolio </h2>
       {/* project section */}
       <div className="project">
@@ -30,7 +30,7 @@ const Portfolio = () => {
           development and my ability to integrate external APIs effectively.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
